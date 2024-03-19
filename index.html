@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ejercicio1</title>
+  </head>
+  <body>
+    <header>
+      <table>
+        <thead>
+          <tr>
+            <th class="azul" rowspan="2">Nombre</th>
+            <th class="azul" colspan="2">IMC</th>
+            <th class="azul" rowspan="2">Hobbies</th>
+            <th class="azul" rowspan="2">Materias</th>
+          </tr>
+          <tr>
+            <td class="azulClaro">Peso</td>
+            <td class="azulClaro">Altura</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ricardo</td>
+            <td>88</td>
+            <td>1.58</td>
+            <td>Lista de Hobbies</td>
+            <td>
+              <ul>
+                <li>Quimica</li>
+                <li>fisica</li>
+                <li>Fisioterapia</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Gabriel</td>
+            <td>92</td>
+            <td>1.70</td>
+            <td>Estudiar</td>
+            <td>
+              <ul>
+                <li>Cocina</li>
+                <li>Matematicas</li>
+                <li>Contabilidad</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Samuel</td>
+            <td>70</td>
+            <td>1.65</td>
+            <td>Cocinar</td>
+            <td>
+              <ul>
+                <li>Logaritmo</li>
+                <li>Nomenclatura</li>
+                <li>Desarrollo</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Daniela</td>
+            <td>65</td>
+            <td>1.70</td>
+            <td>Programar</td>
+            <td>
+              <ul>
+                <li>HTML</li>
+                <li>JS</li>
+                <li>TipeScrip</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Hernan</td>
+            <td>80</td>
+            <td>1.76</td>
+            <td>Desarrollo</td>
+            <td>
+              <ul>
+                <li>Fisica</li>
+                <li>Matematicas</li>
+                <li>Contabilidad</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Daniel</td>
+            <td>96</td>
+            <td>1.89</td>
+            <td>Baloncesto</td>
+            <td>
+              <ul>
+                <li>Mantenimiento</li>
+                <li>Control</li>
+                <li>Detectabilidad</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Sofia</td>
+            <td>65</td>
+            <td>1.65</td>
+            <td>Estudiar</td>
+            <td>
+              <ul>
+                <li>Bio-Quimica</li>
+                <li>Matematicas</li>
+                <li>Fisioterapia</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Jorge</td>
+            <td>60</td>
+            <td>1.70</td>
+            <td>Desarrollo</td>
+            <td>
+              <ul>
+                <li>Teoria</li>
+                <li>Colorimetria</li>
+                <li>Cromatografia</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Camilo</td>
+            <td>84</td>
+            <td>1.80</td>
+            <td>Jugar Billar</td>
+            <td>
+              <ul>
+                <li>Musica</li>
+                <li>Arte</li>
+                <li>Biologia</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Edgar</td>
+            <td>96</td>
+            <td>1.82</td>
+            <td>Skate-Board</td>
+            <td>
+              <ul>
+                <li>Estadistica</li>
+                <li>Matematicas</li>
+                <li>Contabilidad</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Anibal</td>
+            <td>73</td>
+            <td>1.68</td>
+            <td>Musica</td>
+            <td>
+              <ul>
+                <li>Bio-Fisica</li>
+                <li>Bio-Quimica</li>
+                <li>Algebrá</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </header>
+
+    <br />
+
+    <section>
+      <form
+        action="/send/"
+        method="post"
+        name="formulario"
+        target="_blank"
+        accept-charset="UTF-8"
+      >
+        <div class="padre">
+          <fieldset>
+            <legend>Rellenar</legend>
+            <div class="contenedor1">
+              <select name="genero" id="genero">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+              </select>
+
+              <br />
+
+              <div>
+                <label for="color">Elija un color: </label>
+                <input type="color" name="color" id="color" />
+              </div>
+
+              <br />
+
+              <div>
+                <label for="fecha">Elija una fecha:</label>
+                <input type="date" name="fecha" id="fecha" required />
+              </div>
+
+              <br />
+
+              <div>
+                <input type="radio" name="op" id="op" />
+                <label for>Java</label>
+                <input type="radio" name="op" id="op" />
+                <label for>Python</label>
+                <input type="radio" name="op" id="op" />
+                <label for>HTML</label>
+                <input type="radio" name="op" id="op" />
+                <label for>Visual Basic</label>
+                <input type="radio" name="op" id="op" />
+                <label for>CSS</label>
+              </div>
+
+              <br />
+
+              <div>
+                <input type="checkbox" name="masculino" id="masculino" />
+                <label for="masculino"> Hombre</label>
+                <input type="checkbox" name="femenino" id="femenino" />
+                <label for="femenino">Mujer</label>
+              </div>
+
+              <br />
+
+              <div>
+                <label for="fichero">Elija un fichero:</label>
+                <input type="file" name="fichero" id="fichero" />
+
+                <br />
+
+                <textarea
+                  name="texto"
+                  id="texto"
+                  cols="30"
+                  rows="10"
+                  placeholder="Por favor, escriba aquí"
+                ></textarea>
+              </div>
+
+              <br />
+
+              <div>
+                <label class="cole" for="ins">Instituto: </label>
+                <input
+                  class="cole"
+                  style="margin-left: 61px"
+                  type="text"
+                  name="ins"
+                  id="ins"
+                />
+                <br />
+                <label class="cole" for="est">Estudios elegidos: </label>
+                <input class="cole" type="text" name="est" id="est" />
+                <br />
+                <label class="cole" for="nombre">Nombre: </label>
+                <input
+                  class="cole"
+                  style="margin-left: 61px"
+                  type="text"
+                  name="nombre"
+                  id="nombre"
+                />
+                <br />
+                <label class="cole" for="ape">apellidos: </label>
+                <input
+                  class="cole"
+                  style="margin-left: 56px"
+                  type="text"
+                  name="ape"
+                  id="ape"
+                />
+                <br />
+                <label class="cole" for="em">email: </label>
+                <input
+                  class="cole"
+                  style="margin-left: 78px"
+                  type="email"
+                  name="em"
+                  id="em"
+                />
+              </div>
+            </div>
+          </fieldset>
+
+          <br />
+          <fieldset>
+            <legend>Rellene las opciones siguientes</legend>
+            <div class="contenedor1">
+              <input type="checkbox" name="wd" id="wd" />
+              <label for="wd">Windows</label>
+              <input type="checkbox" name="mac" id="mac" />
+              <label for="mac">Mac</label>
+              <input type="checkbox" name="ln" id="ln" />
+              <label for="ln">Linux</label>
+              <br />
+              <label for="tiempo">Elija una hora:</label>
+              <input type="time" name="tiempo" id="tiempo" />
+            </div>
+          </fieldset>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
